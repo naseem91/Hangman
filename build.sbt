@@ -9,3 +9,6 @@ libraryDependencies += "org.scalaz" %% "scalaz-zio" % "0.5.3"
 
 // https://mvnrepository.com/artifact/commons-io/commons-io
 libraryDependencies += "commons-io" % "commons-io" % "2.6"
+
+// https://mvnrepository.com/artifact/org.scalaz/scalaz-core
+libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.3.0-M27"

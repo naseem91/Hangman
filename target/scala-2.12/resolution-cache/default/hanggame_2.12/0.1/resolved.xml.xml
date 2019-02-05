@@ -4,7 +4,7 @@
 		module="hanggame_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190122104424"
+		publication="20190203122847"
 	>
 		<description>
 		HangGame
@@ -34,5 +34,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalaz" name="scalaz-zio_2.12" rev="0.5.3" conf="compile->default(compile)"/>
 		<dependency org="commons-io" name="commons-io" rev="2.6" conf="compile->default(compile)"/>
+		<dependency org="org.scalaz" name="scalaz-core_2.12" rev="7.3.0-M27" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
